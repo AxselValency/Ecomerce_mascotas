@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecomerce.DTO\Ecomerce.DTO.csproj" />
+    <ProjectReference Include="..\Ecomerce.Model\Ecomerce.Modelo.csproj" />
+    <ProjectReference Include="..\Ecomerce.Repositorio\Ecomerce.Repositorio.csproj" />
+    <ProjectReference Include="..\Ecomerce.Utilidades\Ecomerce.Utilidades.csproj" />
+  </ItemGroup>
+
+</Project>
